@@ -23,6 +23,7 @@ import java.sql.DriverManager;
 public class MainActivity extends Activity implements LocationListener {
     TextView txt;
     double lati, longi;
+    //change dburl accordingly
     private static final String dburl="jdbc:mysql://192.168.0.101:3306/locationtracker";
     private static final String username="Mobile";
     private static final String password="123456@Sam";
